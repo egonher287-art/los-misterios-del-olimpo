@@ -1,0 +1,1700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ode SYSTEM "content.dtd">
+<ode xmlns="http://www.intef.es/xsd/ode" version="2.0">
+<userPreferences>
+  <userPreference>
+    <key>theme</key>
+    <value>base</value>
+  </userPreference>
+</userPreferences>
+<odeResources>
+  <odeResource>
+    <key>odeId</key>
+    <value>20260514010936X3UE8V</value>
+  </odeResource>
+  <odeResource>
+    <key>odeVersionId</key>
+    <value>2026051401093623TQTO</value>
+  </odeResource>
+  <odeResource>
+    <key>exe_version</key>
+    <value>4.0.0</value>
+  </odeResource>
+</odeResources>
+<odeProperties>
+  <odeProperty>
+    <key>pp_title</key>
+    <value>Los Misterios del Olimpo</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_subtitle</key>
+    <value>Situación de Aprendizaje para 1.º de ESO</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_author</key>
+    <value>Estrella González Herrera</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_description</key>
+    <value>Situación de Aprendizaje dirigida a 1.º de ESO para trabajar la comprensión e interpretación de los mitos griegos mediante actividades cooperativas y herramientas digitales.</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_lang</key>
+    <value>es</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_license</key>
+    <value>creative commons: attribution - share alike 4.0</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_licenseUrl</key>
+    <value>https://creativecommons.org/licenses/by-sa/4.0/</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_theme</key>
+    <value>base</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_exelearning_version</key>
+    <value>v4.0.0</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_modified</key>
+    <value>1778713166174</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addExeLink</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addPagination</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addSearchBox</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addAccessibilityToolbar</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addMathJax</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>exportSource</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_globalFont</key>
+    <value>default</value>
+  </odeProperty>
+</odeProperties>
+<odeNavStructures>
+<odeNavStructure>
+  <odePageId>page-mp4emz95-0jkx6g8tl</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Los misterios del Olimpo</pageName>
+  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Los misterios del Olimpo</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Los misterios del Olimpo</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Los misterios del Olimpo</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mp4emz95-0jkx6g8tl</odePageId>
+      <odeBlockId>block-1778239914015-kr1iqyn84</odeBlockId>
+      <blockName>Presentación</blockName>
+      <iconName>history</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mp4emz95-0jkx6g8tl</odePageId>
+          <odeBlockId>block-1778239914015-kr1iqyn84</odeBlockId>
+          <odeIdeviceId>idevice-1778239914013-jneqgfet1</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <figure class="exe-figure position-center" style="width: 1536px;"><img src="{{context_path}}/content/resources/Portada los misterios del olimpo.png" width="1536" height="1024" alt="" />
+<figcaption class="figcaption"><span class="author">Estrella González Herrera</span>. <span class="title"><em>Mitos griegos del proyecto Los misterios del Olimpo</em></span> <span class="license"><span class="sep">(</span><span class="custom-license">Dominio público</span><span class="sep">)</span></span></figcaption>
+</figure>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778239914013-jneqgfet1","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<figure class=\"exe-figure position-center\" style=\"width: 1536px;\"><img src=\"{{context_path}}/content/resources/Portada los misterios del olimpo.png\" width=\"1536\" height=\"1024\" alt=\"\" />\n<figcaption class=\"figcaption\"><span class=\"author\">Estrella González Herrera</span>. <span class=\"title\"><em>Mitos griegos del proyecto Los misterios del Olimpo</em></span> <span class=\"license\"><span class=\"sep\">(</span><span class=\"custom-license\">Dominio público</span><span class=\"sep\">)</span></span></figcaption>\n</figure>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mp4emz97-36tg8u9ts</odePageId>
+  <odeParentPageId>page-mp4emz95-0jkx6g8tl</odeParentPageId>
+  <pageName>Guía didáctica</pageName>
+  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Guía didáctica</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Guía didáctica</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mp4emz97-36tg8u9ts</odePageId>
+      <odeBlockId>block-1778240665068-uqo9vxvpy</odeBlockId>
+      <blockName>Organización de la Situación de Aprendizaje</blockName>
+      <iconName>diary_alt</iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mp4emz97-36tg8u9ts</odePageId>
+          <odeBlockId>block-1778240665068-uqo9vxvpy</odeBlockId>
+          <odeIdeviceId>idevice-1778240665066-9xnw6xl86</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>En esta sección se recoge la organización general de la Situación de Aprendizaje “Los misterios del Olimpo”, dirigida al alumnado de 1.º de ESO dentro de la materia de Lengua Castellana y Literatura.</p>
+<p>A través de los diferentes apartados se presentan la introducción de la SdA, los contenidos trabajados, las actividades, la línea temporal, los recursos digitales y los instrumentos de evaluación utilizados durante su desarrollo.</p>
+<figure class="exe-figure position-center" style="width: 1536px;"><img src="{{context_path}}/content/resources/guia didactica.png" width="1536" height="1024" alt="" />
+<figcaption class="figcaption"><span class="author">Elaboración propia</span>. <a href="Organización de la Situación de Aprendizaje" class="title" target="_blank" rel="noopener"><em>Organización de la Situación de Aprendizaje</em></a> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/licenses/" class="license" target="_blank" rel="noopener">CC BY-NC-SA</a><span class="sep">)</span></span></figcaption>
+</figure>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778240665066-9xnw6xl86","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>En esta sección se recoge la organización general de la Situación de Aprendizaje “Los misterios del Olimpo”, dirigida al alumnado de 1.º de ESO dentro de la materia de Lengua Castellana y Literatura.</p>\n<p>A través de los diferentes apartados se presentan la introducción de la SdA, los contenidos trabajados, las actividades, la línea temporal, los recursos digitales y los instrumentos de evaluación utilizados durante su desarrollo.</p>\n<figure class=\"exe-figure position-center\" style=\"width: 1536px;\"><img src=\"{{context_path}}/content/resources/guia didactica.png\" width=\"1536\" height=\"1024\" alt=\"\" />\n<figcaption class=\"figcaption\"><span class=\"author\">Elaboración propia</span>. <a href=\"Organización de la Situación de Aprendizaje\" class=\"title\" target=\"_blank\" rel=\"noopener\"><em>Organización de la Situación de Aprendizaje</em></a> <span class=\"license\"><span class=\"sep\">(</span><a href=\"http://creativecommons.org/licenses/\" class=\"license\" target=\"_blank\" rel=\"noopener\">CC BY-NC-SA</a><span class=\"sep\">)</span></span></figcaption>\n</figure>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mp4emz98-it7we9akm</odePageId>
+  <odeParentPageId>page-mp4emz97-36tg8u9ts</odeParentPageId>
+  <pageName>Introducción</pageName>
+  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Introducción</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Introducción</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mp4emz98-it7we9akm</odePageId>
+      <odeBlockId>block-1778522390296-ezo5f44eu</odeBlockId>
+      <blockName>Descripción de la Situación de Aprendizaje</blockName>
+      <iconName>file</iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mp4emz98-it7we9akm</odePageId>
+          <odeBlockId>block-1778522390296-ezo5f44eu</odeBlockId>
+          <odeIdeviceId>idevice-1778522390294-sg9i6ndq4</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>La siguiente infografía resume los aspectos principales de la Situación de Aprendizaje “Los misterios del Olimpo”, dirigida al alumnado de 1.º de ESO dentro de la materia de Lengua Castellana y Literatura.</p>
+<p></p>
+<figure class="exe-figure position-center" style="width: 1024px;"><img src="{{context_path}}/content/resources/info introd 2.1.png" width="1024" height="1536" alt="" />
+<figcaption class="figcaption"><span class="author">Estrella González</span>. <span class="title"><em>2.1 Situación de Aprendizaje. Los misterios del Olimpo</em></span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/licenses/" class="license" target="_blank" rel="noopener">CC BY-NC-SA</a><span class="sep">)</span></span></figcaption>
+</figure>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778522390294-sg9i6ndq4","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>La siguiente infografía resume los aspectos principales de la Situación de Aprendizaje “Los misterios del Olimpo”, dirigida al alumnado de 1.º de ESO dentro de la materia de Lengua Castellana y Literatura.</p>\n<p></p>\n<figure class=\"exe-figure position-center\" style=\"width: 1024px;\"><img src=\"{{context_path}}/content/resources/info introd 2.1.png\" width=\"1024\" height=\"1536\" alt=\"\" />\n<figcaption class=\"figcaption\"><span class=\"author\">Estrella González</span>. <span class=\"title\"><em>2.1 Situación de Aprendizaje. Los misterios del Olimpo</em></span> <span class=\"license\"><span class=\"sep\">(</span><a href=\"http://creativecommons.org/licenses/\" class=\"license\" target=\"_blank\" rel=\"noopener\">CC BY-NC-SA</a><span class=\"sep\">)</span></span></figcaption>\n</figure>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mp4emz99-649sfz30q</odePageId>
+  <odeParentPageId>page-mp4emz97-36tg8u9ts</odeParentPageId>
+  <pageName>Contenidos</pageName>
+  <odeNavStructureOrder>1</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Contenidos</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Contenidos</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mp4emz99-649sfz30q</odePageId>
+      <odeBlockId>block-1778522993784-le41hsxmf</odeBlockId>
+      <blockName>Contenidos trabajados en el proyecto</blockName>
+      <iconName>file</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mp4emz99-649sfz30q</odePageId>
+          <odeBlockId>block-1778522993784-le41hsxmf</odeBlockId>
+          <odeIdeviceId>idevice-1778522993783-r29062ehe</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>En esta Situación de Aprendizaje el alumnado trabajará diferentes mitos de la tradición clásica mediante actividades de lectura, investigación y análisis cooperativo.</p>
+<p>Los siguientes recursos audiovisuales ayudarán a comprender mejor el universo mitológico griego y facilitarán el desarrollo de las actividades propuestas.</p>
+<ul>
+<li>Introducción a la mitología griega<br />Vídeo introductorio para conocer el origen de la mitología griega y algunos de los personajes más importantes del Olimpo.</li>
+</ul>
+<p><a href="https://youtu.be/Mzze2BZjGHw?si=_G11spXkbCL5j_tE" target="_blank" title="" rel="noopener">Introducción a la mitología griega</a></p>
+<figure class="exe-figure exe-media position-center license-standard-youtube" style="width: 560px;" id="fig_myuulkqm3"><iframe width="560" height="314" src="https://www.youtube.com/embed/Mzze2BZjGHw?si=-jNwSTq8BHpA4sby" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe>
+<figcaption class="figcaption"><a href="Introducción a la mitología griega" target="_blank" class="title" rel="noopener" title=""><em>Introducción a la mitología griega</em></a> <span class="license"><span class="sep">(</span><a href="https://www.youtube.com/static?template=terms" rel="license nofollow noopener" target="_blank">Licencia de YouTube estándar</a><span class="sep">)</span></span></figcaption>
+</figure>
+<ul>
+<li>Trabajo colaborativo con documentos compartidos<br />Tutorial básico para aprender a trabajar de forma colaborativa mediante herramientas digitales compartidas.</li>
+</ul>
+<p><a href="https://youtu.be/iwGMbLdnuVU?si=8X_AisprcolskA0b" target="_blank" title="" rel="noopener">Tutorial Google Docs colaborativo</a></p>
+<figure class="exe-figure exe-media position-center license-standard-youtube" style="width: 560px;" id="fig_od4wrc5oz"><iframe width="560" height="314" src="https://www.youtube.com/embed/iwGMbLdnuVU?si=VMCIaWx7NlreOKk3" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe>
+<figcaption class="figcaption"><a href="Tutorial Google Docs Colaborativo" target="_blank" class="title" rel="noopener"><em>Tutorial Google Docs Colaborativo</em></a> <span class="license"><span class="sep">(</span><a href="https://www.youtube.com/static?template=terms" rel="license nofollow noopener" target="_blank">Licencia de YouTube estándar</a><span class="sep">)</span></span></figcaption>
+</figure>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778522993783-r29062ehe","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>En esta Situación de Aprendizaje el alumnado trabajará diferentes mitos de la tradición clásica mediante actividades de lectura, investigación y análisis cooperativo.</p>\n<p>Los siguientes recursos audiovisuales ayudarán a comprender mejor el universo mitológico griego y facilitarán el desarrollo de las actividades propuestas.</p>\n<ul>\n<li>Introducción a la mitología griega<br />Vídeo introductorio para conocer el origen de la mitología griega y algunos de los personajes más importantes del Olimpo.</li>\n</ul>\n<p><a href=\"https://youtu.be/Mzze2BZjGHw?si=_G11spXkbCL5j_tE\" target=\"_blank\" title=\"\" rel=\"noopener\">Introducción a la mitología griega</a></p>\n<figure class=\"exe-figure exe-media position-center license-standard-youtube\" style=\"width: 560px;\" id=\"fig_myuulkqm3\"><iframe width=\"560\" height=\"314\" src=\"https://www.youtube.com/embed/Mzze2BZjGHw?si=-jNwSTq8BHpA4sby\" allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\"></iframe>\n<figcaption class=\"figcaption\"><a href=\"Introducción a la mitología griega\" target=\"_blank\" class=\"title\" rel=\"noopener\" title=\"\"><em>Introducción a la mitología griega</em></a> <span class=\"license\"><span class=\"sep\">(</span><a href=\"https://www.youtube.com/static?template=terms\" rel=\"license nofollow noopener\" target=\"_blank\">Licencia de YouTube estándar</a><span class=\"sep\">)</span></span></figcaption>\n</figure>\n<ul>\n<li>Trabajo colaborativo con documentos compartidos<br />Tutorial básico para aprender a trabajar de forma colaborativa mediante herramientas digitales compartidas.</li>\n</ul>\n<p><a href=\"https://youtu.be/iwGMbLdnuVU?si=8X_AisprcolskA0b\" target=\"_blank\" title=\"\" rel=\"noopener\">Tutorial Google Docs colaborativo</a></p>\n<figure class=\"exe-figure exe-media position-center license-standard-youtube\" style=\"width: 560px;\" id=\"fig_od4wrc5oz\"><iframe width=\"560\" height=\"314\" src=\"https://www.youtube.com/embed/iwGMbLdnuVU?si=VMCIaWx7NlreOKk3\" allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\"></iframe>\n<figcaption class=\"figcaption\"><a href=\"Tutorial Google Docs Colaborativo\" target=\"_blank\" class=\"title\" rel=\"noopener\"><em>Tutorial Google Docs Colaborativo</em></a> <span class=\"license\"><span class=\"sep\">(</span><a href=\"https://www.youtube.com/static?template=terms\" rel=\"license nofollow noopener\" target=\"_blank\">Licencia de YouTube estándar</a><span class=\"sep\">)</span></span></figcaption>\n</figure>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mp4emz99-dj2denamh</odePageId>
+  <odeParentPageId>page-mp4emz97-36tg8u9ts</odeParentPageId>
+  <pageName>Actividades</pageName>
+  <odeNavStructureOrder>2</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Actividades</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Actividades</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mp4emz99-dj2denamh</odePageId>
+      <odeBlockId>block-1778573040595-ir4tbgnm5</odeBlockId>
+      <blockName>Actividades de la Situación de Aprendizaje</blockName>
+      <iconName>file</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mp4emz99-dj2denamh</odePageId>
+          <odeBlockId>block-1778573040595-ir4tbgnm5</odeBlockId>
+          <odeIdeviceId>idevice-1778573040592-jarji50ub</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>A lo largo de esta Situación de Aprendizaje el alumnado realizará diferentes actividades de lectura, investigación y análisis relacionadas con los mitos trabajados en el aula.</p>
+<p>Las tareas se desarrollarán mediante trabajo cooperativo y el uso de herramientas digitales sencillas que favorecerán la comprensión lectora, la interpretación de textos, la expresión oral y escrita y la competencia digital.</p>
+<p><img src="{{context_path}}/content/resources/tabla_actividades_olimpo.png" width="1400" height="900" alt="" /></p>
+<p>Para reforzar algunos contenidos relacionados con la mitología griega, el alumnado podrá realizar el siguiente cuestionario interactivo autocorregible.</p>
+<p><a href="https://wordwall.net/es/resource/64575692/cu%C3%A1nto-sabes-de-mitolog%C3%ADa-griega" target="_blank" title="" rel="noopener">Cuestionario interactivo sobre mitología griega</a></p>
+<p></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778573040592-jarji50ub","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>A lo largo de esta Situación de Aprendizaje el alumnado realizará diferentes actividades de lectura, investigación y análisis relacionadas con los mitos trabajados en el aula.</p>\n<p>Las tareas se desarrollarán mediante trabajo cooperativo y el uso de herramientas digitales sencillas que favorecerán la comprensión lectora, la interpretación de textos, la expresión oral y escrita y la competencia digital.</p>\n<p><img src=\"{{context_path}}/content/resources/tabla_actividades_olimpo.png\" width=\"1400\" height=\"900\" alt=\"\" /></p>\n<p>Para reforzar algunos contenidos relacionados con la mitología griega, el alumnado podrá realizar el siguiente cuestionario interactivo autocorregible.</p>\n<p><a href=\"https://wordwall.net/es/resource/64575692/cu%C3%A1nto-sabes-de-mitolog%C3%ADa-griega\" target=\"_blank\" title=\"\" rel=\"noopener\">Cuestionario interactivo sobre mitología griega</a></p>\n<p></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mp4emz99-eo39l30ln</odePageId>
+  <odeParentPageId>page-mp4emz97-36tg8u9ts</odeParentPageId>
+  <pageName>Línea temporal</pageName>
+  <odeNavStructureOrder>3</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Línea temporal</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Línea temporal</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mp4emz99-eo39l30ln</odePageId>
+      <odeBlockId>block-1778610796199-1xl49u0s7</odeBlockId>
+      <blockName>Secuencia temporal de la Situación de Aprendizaje</blockName>
+      <iconName>file</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mp4emz99-eo39l30ln</odePageId>
+          <odeBlockId>block-1778610796199-1xl49u0s7</odeBlockId>
+          <odeIdeviceId>idevice-1778610796198-42npnleyt</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>La siguiente línea temporal muestra la organización general de las sesiones y actividades desarrolladas a lo largo de la Situación de Aprendizaje “Los misterios del Olimpo”.</p>
+<p>En ella se recoge la secuencia de trabajo seguida por el alumnado desde la presentación inicial hasta la exposición final del expediente del caso mitológico.</p>
+<p></p>
+<p></p>
+<figure class="exe-figure position-center" style="width: 800px;"><img src="{{context_path}}/content/resources/Línea temporal educativa Misterios del Olimpo (1º ESO).jpg" width="800" height="2000" alt="" />
+<figcaption class="figcaption"><span class="author">Elaboración propia</span>. <span class="title"><em>Línea Temporal de la Situación de Aprendizaje</em></span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/licenses/" class="license" target="_blank" rel="noopener">CC BY-NC-SA</a><span class="sep">)</span></span></figcaption>
+</figure>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778610796198-42npnleyt","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>La siguiente línea temporal muestra la organización general de las sesiones y actividades desarrolladas a lo largo de la Situación de Aprendizaje “Los misterios del Olimpo”.</p>\n<p>En ella se recoge la secuencia de trabajo seguida por el alumnado desde la presentación inicial hasta la exposición final del expediente del caso mitológico.</p>\n<p></p>\n<p></p>\n<figure class=\"exe-figure position-center\" style=\"width: 800px;\"><img src=\"{{context_path}}/content/resources/Línea temporal educativa Misterios del Olimpo (1º ESO).jpg\" width=\"800\" height=\"2000\" alt=\"\" />\n<figcaption class=\"figcaption\"><span class=\"author\">Elaboración propia</span>. <span class=\"title\"><em>Línea Temporal de la Situación de Aprendizaje</em></span> <span class=\"license\"><span class=\"sep\">(</span><a href=\"http://creativecommons.org/licenses/\" class=\"license\" target=\"_blank\" rel=\"noopener\">CC BY-NC-SA</a><span class=\"sep\">)</span></span></figcaption>\n</figure>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mp4emz9a-r9jgmyelr</odePageId>
+  <odeParentPageId>page-mp4emz97-36tg8u9ts</odeParentPageId>
+  <pageName>Curación de contenidos</pageName>
+  <odeNavStructureOrder>4</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Curación de contenidos</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Curación de contenidos</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mp4emz9a-r9jgmyelr</odePageId>
+      <odeBlockId>block-1778612901464-b9ykg1zms</odeBlockId>
+      <blockName>Recursos digitales para trabajar los mitos</blockName>
+      <iconName>file</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mp4emz9a-r9jgmyelr</odePageId>
+          <odeBlockId>block-1778612901464-b9ykg1zms</odeBlockId>
+          <odeIdeviceId>idevice-1778612901461-x9s9o65qp</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>Con el objetivo de facilitar la comprensión de los mitos trabajados durante la Situación de Aprendizaje, se ha elaborado un espacio digital mediante Padlet en el que se recopilan vídeos, lecturas, imágenes y materiales relacionados con la mitología griega.</p>
+<p>Estos recursos permitirán al alumnado acceder de forma sencilla a distintos contenidos de apoyo y ampliar la información trabajada en el aula.</p>
+<p><a href="&lt;div%20class=&quot;padlet-embed&quot;%20style=&quot;border:1px%20solid%20rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4&quot;&gt;&lt;p%20style=&quot;padding:0;margin:0&quot;&gt;&lt;iframe%20src=&quot;https://padlet.com/embed/eoov1zfn7mwf120v&quot;%20frameborder=&quot;0&quot;%20allow=&quot;camera;microphone;geolocation;display-capture;clipboard-write&quot;%20style=&quot;width:100%;height:608px;display:block;padding:0;margin:0&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;&lt;div%20style=&quot;display:flex;align-items:center;justify-content:end;margin:0;padding:8px%208px%208px%200&quot;&gt;&lt;a%20href=&quot;https://padlet.com?ref=embed&quot;%20style=&quot;display:flex;align-items:center;gap:5px;flex-grow:0;margin:0;border:none;padding:0;text-decoration:none&quot;%20target=&quot;_blank&quot;&gt;&lt;span%20aria-hidden%20style=&quot;color:#9E9E9E;font-size:10px;font-family:-apple-system,BlinkMacSystemFont,'Segoe%20UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;line-height:1&quot;&gt;Made%20with&lt;/span&gt;&lt;img%20src=&quot;https://padlet.net/emails/padlet_email_logo_2026_text-dark-200.png&quot;%20height=&quot;12&quot;%20style=&quot;padding:0;margin:0;background:0%200;border:none;box-shadow:none;display:block&quot;%20alt=&quot;Hecho%20con%20Padlet&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;" target="_blank" title="" rel="noopener">Padlet de recursos digitales</a></p>
+<div class="padlet-embed" style="border: 1px solid rgba(0,0,0,0.1); border-radius: 2px; box-sizing: border-box; overflow: hidden; position: relative; width: 100%; background: #F4F4F4;">
+<p style="padding: 0; margin: 0;"><iframe width="100" height="608" style="width: 100%; height: 608px; display: block; padding: 0; margin: 0;" src="https://padlet.com/embed/eoov1zfn7mwf120v" frameborder="0" allow="camera;microphone;geolocation;display-capture;clipboard-write" data-mce-fragment="1"></iframe></p>
+<div style="display: flex; align-items: center; justify-content: end; margin: 0; padding: 8px 8px 8px 0;"><a href="https://padlet.com?ref=embed" style="display: flex; align-items: center; gap: 5px; flex-grow: 0; margin: 0; border: none; padding: 0; text-decoration: none;" target="_blank" rel="noopener"><span aria-hidden="" style="color: #9e9e9e; font-size: 10px; font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif; line-height: 1;">Made with</span><img src="https://padlet.net/emails/padlet_email_logo_2026_text-dark-200.png" height="12" style="padding: 0; margin: 0; background: 0 0; border: none; box-shadow: none; display: block;" alt="Hecho con Padlet" /></a></div>
+</div>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778612901461-x9s9o65qp","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Con el objetivo de facilitar la comprensión de los mitos trabajados durante la Situación de Aprendizaje, se ha elaborado un espacio digital mediante Padlet en el que se recopilan vídeos, lecturas, imágenes y materiales relacionados con la mitología griega.</p>\n<p>Estos recursos permitirán al alumnado acceder de forma sencilla a distintos contenidos de apoyo y ampliar la información trabajada en el aula.</p>\n<p><a href=\"&lt;div%20class=&quot;padlet-embed&quot;%20style=&quot;border:1px%20solid%20rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4&quot;&gt;&lt;p%20style=&quot;padding:0;margin:0&quot;&gt;&lt;iframe%20src=&quot;https://padlet.com/embed/eoov1zfn7mwf120v&quot;%20frameborder=&quot;0&quot;%20allow=&quot;camera;microphone;geolocation;display-capture;clipboard-write&quot;%20style=&quot;width:100%;height:608px;display:block;padding:0;margin:0&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;&lt;div%20style=&quot;display:flex;align-items:center;justify-content:end;margin:0;padding:8px%208px%208px%200&quot;&gt;&lt;a%20href=&quot;https://padlet.com?ref=embed&quot;%20style=&quot;display:flex;align-items:center;gap:5px;flex-grow:0;margin:0;border:none;padding:0;text-decoration:none&quot;%20target=&quot;_blank&quot;&gt;&lt;span%20aria-hidden%20style=&quot;color:#9E9E9E;font-size:10px;font-family:-apple-system,BlinkMacSystemFont,'Segoe%20UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;line-height:1&quot;&gt;Made%20with&lt;/span&gt;&lt;img%20src=&quot;https://padlet.net/emails/padlet_email_logo_2026_text-dark-200.png&quot;%20height=&quot;12&quot;%20style=&quot;padding:0;margin:0;background:0%200;border:none;box-shadow:none;display:block&quot;%20alt=&quot;Hecho%20con%20Padlet&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;\" target=\"_blank\" title=\"\" rel=\"noopener\">Padlet de recursos digitales</a></p>\n<div class=\"padlet-embed\" style=\"border: 1px solid rgba(0,0,0,0.1); border-radius: 2px; box-sizing: border-box; overflow: hidden; position: relative; width: 100%; background: #F4F4F4;\">\n<p style=\"padding: 0; margin: 0;\"><iframe width=\"100\" height=\"608\" style=\"width: 100%; height: 608px; display: block; padding: 0; margin: 0;\" src=\"https://padlet.com/embed/eoov1zfn7mwf120v\" frameborder=\"0\" allow=\"camera;microphone;geolocation;display-capture;clipboard-write\" data-mce-fragment=\"1\"></iframe></p>\n<div style=\"display: flex; align-items: center; justify-content: end; margin: 0; padding: 8px 8px 8px 0;\"><a href=\"https://padlet.com?ref=embed\" style=\"display: flex; align-items: center; gap: 5px; flex-grow: 0; margin: 0; border: none; padding: 0; text-decoration: none;\" target=\"_blank\" rel=\"noopener\"><span aria-hidden=\"\" style=\"color: #9e9e9e; font-size: 10px; font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif; line-height: 1;\">Made with</span><img src=\"https://padlet.net/emails/padlet_email_logo_2026_text-dark-200.png\" height=\"12\" style=\"padding: 0; margin: 0; background: 0 0; border: none; box-shadow: none; display: block;\" alt=\"Hecho con Padlet\" /></a></div>\n</div>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mp4emz9a-r9jgmyelr</odePageId>
+      <odeBlockId>block-1778701514266-3ds13z3w3</odeBlockId>
+      <blockName>Herramientas digitales y recursos educativos</blockName>
+      <iconName>file</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mp4emz9a-r9jgmyelr</odePageId>
+          <odeBlockId>block-1778701514266-3ds13z3w3</odeBlockId>
+          <odeIdeviceId>idevice-1778701514264-kefv6vd6s</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>Además, se ha organizado un panel visual mediante Symbaloo que recoge diferentes herramientas y aplicaciones digitales útiles para el desarrollo de actividades educativas y el trabajo cooperativo en el aula.</p>
+<p>Este espacio facilita el acceso rápido a recursos digitales relacionados con la organización, la comunicación y la creación de contenidos.</p>
+<p><a href="https://www.symbaloo.com/shared/AAAAAa0MgRUAA41-5EM7LQ==" target="_blank" title="" rel="noopener">Symbaloo de recursos educativos</a></p>
+<figure class="exe-figure position-center" style="width: 1536px;"><img src="{{context_path}}/content/resources/Captura de pantalla (55).png" width="1536" height="690" alt="" />
+<figcaption class="figcaption"><span class="author">Elaboración propia</span>. <a href="Symbalaoo galería Olimpo" class="title" target="_blank" rel="noopener"><em>Symbalaoo galería Olimpo</em></a> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/licenses/" class="license" target="_blank" rel="noopener">CC BY-NC-SA</a><span class="sep">)</span></span></figcaption>
+</figure>
+<pre><code></code></pre>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778701514264-kefv6vd6s","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Además, se ha organizado un panel visual mediante Symbaloo que recoge diferentes herramientas y aplicaciones digitales útiles para el desarrollo de actividades educativas y el trabajo cooperativo en el aula.</p>\n<p>Este espacio facilita el acceso rápido a recursos digitales relacionados con la organización, la comunicación y la creación de contenidos.</p>\n<p><a href=\"https://www.symbaloo.com/shared/AAAAAa0MgRUAA41-5EM7LQ==\" target=\"_blank\" title=\"\" rel=\"noopener\">Symbaloo de recursos educativos</a></p>\n<figure class=\"exe-figure position-center\" style=\"width: 1536px;\"><img src=\"{{context_path}}/content/resources/Captura de pantalla (55).png\" width=\"1536\" height=\"690\" alt=\"\" />\n<figcaption class=\"figcaption\"><span class=\"author\">Elaboración propia</span>. <a href=\"Symbalaoo galería Olimpo\" class=\"title\" target=\"_blank\" rel=\"noopener\"><em>Symbalaoo galería Olimpo</em></a> <span class=\"license\"><span class=\"sep\">(</span><a href=\"http://creativecommons.org/licenses/\" class=\"license\" target=\"_blank\" rel=\"noopener\">CC BY-NC-SA</a><span class=\"sep\">)</span></span></figcaption>\n</figure>\n<pre><code></code></pre>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mp4emz9a-v7mlqgruk</odePageId>
+  <odeParentPageId>page-mp4emz97-36tg8u9ts</odeParentPageId>
+  <pageName>Seguridad digital</pageName>
+  <odeNavStructureOrder>5</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Seguridad digital</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Seguridad digital</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mp4emz9a-v7mlqgruk</odePageId>
+      <odeBlockId>block-1778615944612-e19jolvil</odeBlockId>
+      <blockName>Protección de datos y seguridad digital</blockName>
+      <iconName>file</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mp4emz9a-v7mlqgruk</odePageId>
+          <odeBlockId>block-1778615944612-e19jolvil</odeBlockId>
+          <odeIdeviceId>idevice-1778615944610-zyjp33tzk</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>Antes de comenzar el trabajo con herramientas digitales, el alumnado debe conocer algunas normas básicas relacionadas con la protección de datos personales, la identidad digital y el uso responsable de internet.</p>
+<p>La siguiente infografía recoge algunas recomendaciones y pautas que se tendrán en cuenta durante el desarrollo de la Situación de Aprendizaje.</p>
+<figure class="exe-figure position-center" style="width: 800px;"><img src="{{context_path}}/content/resources/Normas básicas de seguridad.jpg" width="800" height="2000" alt="" />
+<figcaption class="figcaption"><span class="author">Estrella González Herrera</span>. <span class="title"><em>Infografía</em></span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/licenses/" class="license" target="_blank" rel="noopener">CC BY-NC-SA</a><span class="sep">)</span></span></figcaption>
+</figure>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778615944610-zyjp33tzk","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Antes de comenzar el trabajo con herramientas digitales, el alumnado debe conocer algunas normas básicas relacionadas con la protección de datos personales, la identidad digital y el uso responsable de internet.</p>\n<p>La siguiente infografía recoge algunas recomendaciones y pautas que se tendrán en cuenta durante el desarrollo de la Situación de Aprendizaje.</p>\n<figure class=\"exe-figure position-center\" style=\"width: 800px;\"><img src=\"{{context_path}}/content/resources/Normas básicas de seguridad.jpg\" width=\"800\" height=\"2000\" alt=\"\" />\n<figcaption class=\"figcaption\"><span class=\"author\">Estrella González Herrera</span>. <span class=\"title\"><em>Infografía</em></span> <span class=\"license\"><span class=\"sep\">(</span><a href=\"http://creativecommons.org/licenses/\" class=\"license\" target=\"_blank\" rel=\"noopener\">CC BY-NC-SA</a><span class=\"sep\">)</span></span></figcaption>\n</figure>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mp4emz9b-9tm5cyh09</odePageId>
+  <odeParentPageId>page-mp4emz97-36tg8u9ts</odeParentPageId>
+  <pageName>Evaluación</pageName>
+  <odeNavStructureOrder>6</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Evaluación</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Evaluación</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mp4emz9b-9tm5cyh09</odePageId>
+      <odeBlockId>block-1778616783237-tb2fkklvn</odeBlockId>
+      <blockName>Evaluación de la Situación de Aprendizaje</blockName>
+      <iconName>file</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mp4emz9b-9tm5cyh09</odePageId>
+          <odeBlockId>block-1778616783237-tb2fkklvn</odeBlockId>
+          <odeIdeviceId>idevice-1778616783236-5pv3mtin6</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>La evaluación de esta Situación de Aprendizaje tendrá en cuenta tanto el proceso de trabajo desarrollado por el alumnado como el producto final elaborado durante las diferentes actividades propuestas.</p>
+<p>Para ello se utilizarán distintos instrumentos de evaluación relacionados con la comprensión lectora, la expresión oral, el trabajo cooperativo y la competencia digital.</p>
+<p><strong>Rúbrica y criterios de evaluación</strong><br />La siguiente rúbrica recoge los principales criterios de evaluación trabajados durante el desarrollo de la Situación de Aprendizaje y permitirá valorar la comprensión e interpretación de los mitos, la organización del trabajo, la expresión escrita y oral, la creatividad y la participación del alumnado.</p>
+<figure class="exe-figure position-center" style="width: 1536px;"><img src="{{context_path}}/content/resources/evaluacion y criterios.png" width="1536" height="1024" alt="" />
+<figcaption class="figcaption"><span class="author">Elaboración propia</span>. <span class="title"><em>Rúbrica y criterios de evaluación.</em></span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/licenses/" class="license" target="_blank" rel="noopener">CC BY-SA</a><span class="sep">)</span></span></figcaption>
+</figure>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778616783236-5pv3mtin6","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>La evaluación de esta Situación de Aprendizaje tendrá en cuenta tanto el proceso de trabajo desarrollado por el alumnado como el producto final elaborado durante las diferentes actividades propuestas.</p>\n<p>Para ello se utilizarán distintos instrumentos de evaluación relacionados con la comprensión lectora, la expresión oral, el trabajo cooperativo y la competencia digital.</p>\n<p><strong>Rúbrica y criterios de evaluación</strong><br />La siguiente rúbrica recoge los principales criterios de evaluación trabajados durante el desarrollo de la Situación de Aprendizaje y permitirá valorar la comprensión e interpretación de los mitos, la organización del trabajo, la expresión escrita y oral, la creatividad y la participación del alumnado.</p>\n<figure class=\"exe-figure position-center\" style=\"width: 1536px;\"><img src=\"{{context_path}}/content/resources/evaluacion y criterios.png\" width=\"1536\" height=\"1024\" alt=\"\" />\n<figcaption class=\"figcaption\"><span class=\"author\">Elaboración propia</span>. <span class=\"title\"><em>Rúbrica y criterios de evaluación.</em></span> <span class=\"license\"><span class=\"sep\">(</span><a href=\"http://creativecommons.org/licenses/\" class=\"license\" target=\"_blank\" rel=\"noopener\">CC BY-SA</a><span class=\"sep\">)</span></span></figcaption>\n</figure>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mp4emz9b-9tm5cyh09</odePageId>
+      <odeBlockId>block-1778698903158-hacfvh26y</odeBlockId>
+      <blockName>Instrumentos de evaluación complementarios</blockName>
+      <iconName>file</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mp4emz9b-9tm5cyh09</odePageId>
+          <odeBlockId>block-1778698903158-hacfvh26y</odeBlockId>
+          <odeIdeviceId>idevice-1778698903155-rk6sdxotl</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p><strong>Diana de autoevaluación</strong><br />La diana de autoevaluación permitirá que el alumnado reflexione sobre su participación, su implicación en el trabajo cooperativo y el uso de herramientas digitales durante el desarrollo de la Situación de Aprendizaje.</p>
+<p>El alumnado valorará aspectos relacionados con la comprensión del mito trabajado, la participación en el grupo, la colaboración con sus compañeros y el uso de herramientas digitales como Canva y Google Docs.</p>
+<figure class="exe-figure position-center" style="width: 1254px;"><img src="{{context_path}}/content/resources/DIANA.png" width="1254" height="1254" alt="" />
+<figcaption class="figcaption"><span class="author">Elaboración propia</span>. <span class="title"><em>Diana de autoevaluación del alumnado</em></span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/licenses/" class="license" target="_blank" rel="noopener">CC BY-NC-SA</a><span class="sep">)</span></span></figcaption>
+</figure>
+<p><strong>Cuestionario digital</strong><br />Para comprobar la comprensión de los contenidos trabajados, el alumnado realizará un breve cuestionario digital relacionado con los mitos investigados en el aula.</p>
+<p>Este recurso permitirá reforzar la comprensión lectora, detectar posibles dificultades y comprobar la adquisición de los contenidos trabajados durante la Situación de Aprendizaje.</p>
+<figure class="exe-figure position-center" style="width: 1536px;"><img src="{{context_path}}/content/resources/cuestionario google forms.png" width="1536" height="1024" alt="" />
+<figcaption class="figcaption"><span class="author">Elaboración propia</span>. <a href="Cuestionario de evaluación alumnando" class="title" target="_blank" rel="noopener"><em>Cuestionario de evaluación alumnando</em></a> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/licenses/" class="license" target="_blank" rel="noopener">CC BY-NC-SA</a><span class="sep">)</span></span></figcaption>
+</figure>
+<p><strong>Retroalimentación y seguimiento</strong><br />La evaluación irá acompañada de procesos de autoevaluación y coevaluación que favorecerán la reflexión, la participación activa y la mejora del aprendizaje durante el desarrollo de la Situación de Aprendizaje.</p>
+<p>La retroalimentación incluirá aspectos positivos del trabajo realizado y propuestas de mejora relacionadas con la comprensión de los mitos, la expresión oral y escrita y el trabajo cooperativo.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778698903155-rk6sdxotl","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Diana de autoevaluación</strong><br />La diana de autoevaluación permitirá que el alumnado reflexione sobre su participación, su implicación en el trabajo cooperativo y el uso de herramientas digitales durante el desarrollo de la Situación de Aprendizaje.</p>\n<p>El alumnado valorará aspectos relacionados con la comprensión del mito trabajado, la participación en el grupo, la colaboración con sus compañeros y el uso de herramientas digitales como Canva y Google Docs.</p>\n<figure class=\"exe-figure position-center\" style=\"width: 1254px;\"><img src=\"{{context_path}}/content/resources/DIANA.png\" width=\"1254\" height=\"1254\" alt=\"\" />\n<figcaption class=\"figcaption\"><span class=\"author\">Elaboración propia</span>. <span class=\"title\"><em>Diana de autoevaluación del alumnado</em></span> <span class=\"license\"><span class=\"sep\">(</span><a href=\"http://creativecommons.org/licenses/\" class=\"license\" target=\"_blank\" rel=\"noopener\">CC BY-NC-SA</a><span class=\"sep\">)</span></span></figcaption>\n</figure>\n<p><strong>Cuestionario digital</strong><br />Para comprobar la comprensión de los contenidos trabajados, el alumnado realizará un breve cuestionario digital relacionado con los mitos investigados en el aula.</p>\n<p>Este recurso permitirá reforzar la comprensión lectora, detectar posibles dificultades y comprobar la adquisición de los contenidos trabajados durante la Situación de Aprendizaje.</p>\n<figure class=\"exe-figure position-center\" style=\"width: 1536px;\"><img src=\"{{context_path}}/content/resources/cuestionario google forms.png\" width=\"1536\" height=\"1024\" alt=\"\" />\n<figcaption class=\"figcaption\"><span class=\"author\">Elaboración propia</span>. <a href=\"Cuestionario de evaluación alumnando\" class=\"title\" target=\"_blank\" rel=\"noopener\"><em>Cuestionario de evaluación alumnando</em></a> <span class=\"license\"><span class=\"sep\">(</span><a href=\"http://creativecommons.org/licenses/\" class=\"license\" target=\"_blank\" rel=\"noopener\">CC BY-NC-SA</a><span class=\"sep\">)</span></span></figcaption>\n</figure>\n<p><strong>Retroalimentación y seguimiento</strong><br />La evaluación irá acompañada de procesos de autoevaluación y coevaluación que favorecerán la reflexión, la participación activa y la mejora del aprendizaje durante el desarrollo de la Situación de Aprendizaje.</p>\n<p>La retroalimentación incluirá aspectos positivos del trabajo realizado y propuestas de mejora relacionadas con la comprensión de los mitos, la expresión oral y escrita y el trabajo cooperativo.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mp4emz9b-msjt9ltq4</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Herramientas de comunicación</pageName>
+  <odeNavStructureOrder>1</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Herramientas de comunicación</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Herramientas de comunicación</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mp4emz9b-msjt9ltq4</odePageId>
+      <odeBlockId>block-1778619852716-ia8tesl8j</odeBlockId>
+      <blockName>Herramientas de comunicación</blockName>
+      <iconName>diary_alt</iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mp4emz9b-msjt9ltq4</odePageId>
+          <odeBlockId>block-1778619852716-ia8tesl8j</odeBlockId>
+          <odeIdeviceId>idevice-1778619852714-8ynh96lap</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>Durante el desarrollo de esta Situación de Aprendizaje se utilizarán diferentes herramientas digitales para facilitar la comunicación entre el profesorado, el alumnado y las familias.</p>
+<p>El objetivo es favorecer una comunicación clara, organizada y accesible que permita realizar el seguimiento del trabajo desarrollado durante las distintas actividades relacionadas con los mitos trabajados en el aula.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778619852714-8ynh96lap","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Durante el desarrollo de esta Situación de Aprendizaje se utilizarán diferentes herramientas digitales para facilitar la comunicación entre el profesorado, el alumnado y las familias.</p>\n<p>El objetivo es favorecer una comunicación clara, organizada y accesible que permita realizar el seguimiento del trabajo desarrollado durante las distintas actividades relacionadas con los mitos trabajados en el aula.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mp4emz9b-msjt9ltq4</odePageId>
+      <odeBlockId>block-1778707191492-97spkxghr</odeBlockId>
+      <blockName>Comunicación entre el profesorado</blockName>
+      <iconName>reflection</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mp4emz9b-msjt9ltq4</odePageId>
+          <odeBlockId>block-1778707191492-97spkxghr</odeBlockId>
+          <odeIdeviceId>idevice-1778707191490-c9dh6xdj2</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>La comunicación interna entre el profesorado se realizará principalmente mediante herramientas institucionales como Séneca, el correo corporativo del centro y documentos compartidos en Google Drive.</p>
+<p>Además, en determinadas ocasiones también pueden utilizarse grupos o canales de mensajería instantánea para transmitir avisos rápidos o cuestiones organizativas. No obstante, considero importante que la información relevante quede recogida en canales más formales y organizados, evitando que pueda perderse entre mensajes informales o conversaciones ajenas al trabajo docente.</p>
+<p>El uso de documentos compartidos facilita además la coordinación entre docentes, la organización de materiales y el seguimiento conjunto de las actividades desarrolladas durante la Situación de Aprendizaje.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778707191490-c9dh6xdj2","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>La comunicación interna entre el profesorado se realizará principalmente mediante herramientas institucionales como Séneca, el correo corporativo del centro y documentos compartidos en Google Drive.</p>\n<p>Además, en determinadas ocasiones también pueden utilizarse grupos o canales de mensajería instantánea para transmitir avisos rápidos o cuestiones organizativas. No obstante, considero importante que la información relevante quede recogida en canales más formales y organizados, evitando que pueda perderse entre mensajes informales o conversaciones ajenas al trabajo docente.</p>\n<p>El uso de documentos compartidos facilita además la coordinación entre docentes, la organización de materiales y el seguimiento conjunto de las actividades desarrolladas durante la Situación de Aprendizaje.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mp4emz9b-msjt9ltq4</odePageId>
+      <odeBlockId>block-1778707288215-8v57iyg18</odeBlockId>
+      <blockName>Comunicación entre profesorado y alumnado</blockName>
+      <iconName>competencies</iconName>
+      <odePagStructureOrder>2</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mp4emz9b-msjt9ltq4</odePageId>
+          <odeBlockId>block-1778707288215-8v57iyg18</odeBlockId>
+          <odeIdeviceId>idevice-1778707288213-tkbsrx7os</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>Para la comunicación con el alumnado se utilizarán principalmente Google Classroom y documentos compartidos mediante Google Docs.</p>
+<p>Estas herramientas permiten centralizar materiales, tareas, recursos y avisos dentro de un mismo entorno digital, facilitando tanto la organización del trabajo como el acceso a la información necesaria para el desarrollo de las actividades.</p>
+<p>Además, el uso de herramientas colaborativas favorece el trabajo en grupo, la participación activa y el seguimiento del proceso de aprendizaje por parte del profesorado.</p>
+<p>También se facilitará al alumnado el uso del correo corporativo del centro para resolver dudas o realizar consultas relacionadas con la materia.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778707288213-tkbsrx7os","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Para la comunicación con el alumnado se utilizarán principalmente Google Classroom y documentos compartidos mediante Google Docs.</p>\n<p>Estas herramientas permiten centralizar materiales, tareas, recursos y avisos dentro de un mismo entorno digital, facilitando tanto la organización del trabajo como el acceso a la información necesaria para el desarrollo de las actividades.</p>\n<p>Además, el uso de herramientas colaborativas favorece el trabajo en grupo, la participación activa y el seguimiento del proceso de aprendizaje por parte del profesorado.</p>\n<p>También se facilitará al alumnado el uso del correo corporativo del centro para resolver dudas o realizar consultas relacionadas con la materia.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mp4emz9b-msjt9ltq4</odePageId>
+      <odeBlockId>block-1778708257226-95m15vok1</odeBlockId>
+      <blockName>Comunicación entre profesorado y familias</blockName>
+      <iconName>agreement</iconName>
+      <odePagStructureOrder>3</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mp4emz9b-msjt9ltq4</odePageId>
+          <odeBlockId>block-1778708257226-95m15vok1</odeBlockId>
+          <odeIdeviceId>idevice-1778708257225-8eq99oxjy</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>La comunicación con las familias se realizará principalmente mediante la plataforma iPasen y el correo electrónico corporativo del centro.</p>
+<p>Considero que iPasen es una herramienta especialmente útil porque permite mantener una comunicación institucional, segura y organizada, garantizando además la privacidad de los datos personales y el seguimiento del progreso del alumnado.</p>
+<p>A través de esta plataforma las familias podrán consultar avisos, calificaciones, faltas de asistencia y otra información relevante relacionada con el desarrollo de la Situación de Aprendizaje.</p>
+<p>Asimismo, se intentará mantener una comunicación clara y accesible que favorezca la colaboración entre el centro educativo y las familias durante todo el proceso de enseñanza-aprendizaje.<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> </p>
+<p> </p>
+<p><br /></p>
+<p></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778708257225-8eq99oxjy","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>La comunicación con las familias se realizará principalmente mediante la plataforma iPasen y el correo electrónico corporativo del centro.</p>\n<p>Considero que iPasen es una herramienta especialmente útil porque permite mantener una comunicación institucional, segura y organizada, garantizando además la privacidad de los datos personales y el seguimiento del progreso del alumnado.</p>\n<p>A través de esta plataforma las familias podrán consultar avisos, calificaciones, faltas de asistencia y otra información relevante relacionada con el desarrollo de la Situación de Aprendizaje.</p>\n<p>Asimismo, se intentará mantener una comunicación clara y accesible que favorezca la colaboración entre el centro educativo y las familias durante todo el proceso de enseñanza-aprendizaje.<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> </p>\n<p> </p>\n<p><br /></p>\n<p></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mp4emz9b-ee9nt9oc0</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Herramientas para el producto final</pageName>
+  <odeNavStructureOrder>2</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Herramientas para el producto final</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Herramientas para el producto final</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mp4emz9b-ee9nt9oc0</odePageId>
+      <odeBlockId>block-1778708382758-ee9oyzp4n</odeBlockId>
+      <blockName>Herramientas para el producto final</blockName>
+      <iconName>diary_alt</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mp4emz9b-ee9nt9oc0</odePageId>
+          <odeBlockId>block-1778708382758-ee9oyzp4n</odeBlockId>
+          <odeIdeviceId>idevice-1778708382756-y0hwokjzq</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>Para el desarrollo del producto final de esta Situación de Aprendizaje se utilizarán diferentes herramientas digitales que permitirán organizar la información, facilitar el trabajo cooperativo y presentar de forma visual las conclusiones obtenidas durante la investigación de los mitos trabajados en el aula.</p>
+<p>Estas herramientas ayudarán al alumnado a interpretar las historias, construir explicaciones razonadas y elaborar de forma conjunta el expediente del caso mitológico.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778708382756-y0hwokjzq","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Para el desarrollo del producto final de esta Situación de Aprendizaje se utilizarán diferentes herramientas digitales que permitirán organizar la información, facilitar el trabajo cooperativo y presentar de forma visual las conclusiones obtenidas durante la investigación de los mitos trabajados en el aula.</p>\n<p>Estas herramientas ayudarán al alumnado a interpretar las historias, construir explicaciones razonadas y elaborar de forma conjunta el expediente del caso mitológico.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mp4emz9b-ee9nt9oc0</odePageId>
+      <odeBlockId>block-1778709208298-ie7xvjxt6</odeBlockId>
+      <blockName>El expediente del caso mitológico</blockName>
+      <iconName>observe</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mp4emz9b-ee9nt9oc0</odePageId>
+          <odeBlockId>block-1778709208298-ie7xvjxt6</odeBlockId>
+          <odeIdeviceId>idevice-1778709208296-6jsxdrot4</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>El producto final de esta Situación de Aprendizaje consistirá en la elaboración de un expediente del caso mitológico y su posterior exposición oral.</p>
+<p>Cada grupo trabajará un mito diferente y deberá reconstruir la historia a partir de distintas pistas relacionadas con los personajes, los conflictos y las decisiones presentes en el relato.</p>
+<p>El objetivo no será únicamente comprender el mito, sino también interpretarlo, analizar las acciones de los personajes y construir una explicación razonada a partir de la lectura y del trabajo cooperativo.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778709208296-6jsxdrot4","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>El producto final de esta Situación de Aprendizaje consistirá en la elaboración de un expediente del caso mitológico y su posterior exposición oral.</p>\n<p>Cada grupo trabajará un mito diferente y deberá reconstruir la historia a partir de distintas pistas relacionadas con los personajes, los conflictos y las decisiones presentes en el relato.</p>\n<p>El objetivo no será únicamente comprender el mito, sino también interpretarlo, analizar las acciones de los personajes y construir una explicación razonada a partir de la lectura y del trabajo cooperativo.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mp4emz9b-ee9nt9oc0</odePageId>
+      <odeBlockId>block-1778709283411-x92fu5rro</odeBlockId>
+      <blockName>Canva y la organización de la información</blockName>
+      <iconName>interactive</iconName>
+      <odePagStructureOrder>2</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mp4emz9b-ee9nt9oc0</odePageId>
+          <odeBlockId>block-1778709283411-x92fu5rro</odeBlockId>
+          <odeIdeviceId>idevice-1778709283410-npnjs6nn2</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>Para la elaboración del expediente del caso mitológico se utilizará Canva como herramienta principal de diseño y organización visual de la información.</p>
+<p>A través de esta herramienta el alumnado podrá seleccionar las pistas más relevantes, organizar sus conclusiones y presentar de forma clara y creativa su interpretación del mito trabajado.</p>
+<p>Además, Canva permite adaptar el trabajo a diferentes ritmos y niveles de competencia digital, favoreciendo la participación de todo el alumnado.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778709283410-npnjs6nn2","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Para la elaboración del expediente del caso mitológico se utilizará Canva como herramienta principal de diseño y organización visual de la información.</p>\n<p>A través de esta herramienta el alumnado podrá seleccionar las pistas más relevantes, organizar sus conclusiones y presentar de forma clara y creativa su interpretación del mito trabajado.</p>\n<p>Además, Canva permite adaptar el trabajo a diferentes ritmos y niveles de competencia digital, favoreciendo la participación de todo el alumnado.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mp4emz9b-ee9nt9oc0</odePageId>
+      <odeBlockId>block-1778709390462-k2mdeb0c3</odeBlockId>
+      <blockName>Google Docs y el trabajo cooperativo</blockName>
+      <iconName>roadmap</iconName>
+      <odePagStructureOrder>3</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mp4emz9b-ee9nt9oc0</odePageId>
+          <odeBlockId>block-1778709390462-k2mdeb0c3</odeBlockId>
+          <odeIdeviceId>idevice-1778709390460-ymoqbzych</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>Durante el proceso de investigación cada grupo trabajará mediante documentos compartidos en Google Docs.</p>
+<p>Esta herramienta permitirá registrar las pistas encontradas, organizar ideas y construir de forma conjunta la interpretación del caso mitológico, facilitando además el seguimiento del trabajo cooperativo por parte del profesorado.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778709390460-ymoqbzych","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Durante el proceso de investigación cada grupo trabajará mediante documentos compartidos en Google Docs.</p>\n<p>Esta herramienta permitirá registrar las pistas encontradas, organizar ideas y construir de forma conjunta la interpretación del caso mitológico, facilitando además el seguimiento del trabajo cooperativo por parte del profesorado.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mp4emz9b-ee9nt9oc0</odePageId>
+      <odeBlockId>block-1778709493200-hmv7xnagm</odeBlockId>
+      <blockName>Recursos complementarios</blockName>
+      <iconName>technology</iconName>
+      <odePagStructureOrder>4</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mp4emz9b-ee9nt9oc0</odePageId>
+          <odeBlockId>block-1778709493200-hmv7xnagm</odeBlockId>
+          <odeIdeviceId>idevice-1778709493198-8b6nrvm3f</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>Para facilitar el desarrollo del producto final, el alumnado contará también con diferentes recursos visuales y digitales relacionados con la mitología griega, como imágenes, fragmentos literarios, pequeños textos narrativos y materiales de apoyo que ayudarán a interpretar cada mito desde distintas perspectivas.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778709493198-8b6nrvm3f","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Para facilitar el desarrollo del producto final, el alumnado contará también con diferentes recursos visuales y digitales relacionados con la mitología griega, como imágenes, fragmentos literarios, pequeños textos narrativos y materiales de apoyo que ayudarán a interpretar cada mito desde distintas perspectivas.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mp4emz9b-e1cf79jt5</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Créditos</pageName>
+  <odeNavStructureOrder>3</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Créditos</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Créditos</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mp4emz9b-e1cf79jt5</odePageId>
+      <odeBlockId>block-1778712124630-xistuq8qi</odeBlockId>
+      <blockName>Descargar el archivo fuente</blockName>
+      <iconName>diary_alt</iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mp4emz9b-e1cf79jt5</odePageId>
+          <odeBlockId>block-1778712124630-xistuq8qi</odeBlockId>
+          <odeIdeviceId>idevice-1778712124629-febmct92x</odeIdeviceId>
+          <odeIdeviceTypeName>download-source-file</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-download-package-instructions"><table class="exe-table exe-package-info"><caption>Información general sobre este recurso educativo</caption>
+<tbody>
+<tr>
+<th>Título</th>
+<td class="mceNonEditable exe-prop-locked"><span class="exe-prop-title">Los Misterios del Olimpo</span></td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td class="mceNonEditable exe-prop-locked"><span class="exe-prop-description">-</span></td>
+</tr>
+<tr>
+<th>Autoría</th>
+<td class="mceNonEditable exe-prop-locked"><span class="exe-prop-author">-</span></td>
+</tr>
+<tr>
+<th>Licencia</th>
+<td class="mceNonEditable exe-prop-locked"><span class="exe-prop-license">creative commons: attribution - share alike 4.0</span></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;">Este contenido fue creado con <a href="https://exelearning.net/">eXeLearning</a>, el editor libre y de fuente abierta diseñado para crear recursos educativos.</p></div><p class="exe-download-package-link"><a download="exe-package:elp-name" href="exe-package:elp" style="background-color:#107275;color:#ffffff;">Descargar el archivo .elpx</a></p>]]></htmlView>
+          <jsonProperties></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+</odeNavStructures>
+</ode>
