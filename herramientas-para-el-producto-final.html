@@ -1,145 +1,141 @@
-/**
- * download-source-file iDevice
- *
- * This iDevice displays download link for the source .elpx file.
- * The actual download functionality is provided by exe_elpx_download.js
- * which is included automatically when this iDevice is detected.
- */
-(function() {
-    'use strict';
-    
-    // Sync project properties dynamically when viewed in the eXeLearning Workarea (Editor View).
-    // In export/preview, PageRenderer handles this server-side, and eXe.app will be undefined.
-    function syncProperties() {
-        if (typeof window.eXe === 'undefined' || !window.eXe.app || typeof window.eXe.app.getProjectProperties !== 'function') {
-            return;
-        }
-
-        var props = window.eXe.app.getProjectProperties();
-        if (!props) return;
-
-        // Upgrade legacy iDevices (added before this feature) to have the targetable spans
-        var tables = document.querySelectorAll('table.exe-package-info');
-        for (var t = 0; t < tables.length; t++) {
-            var tds = tables[t].querySelectorAll('td');
-            if (tds.length === 4) {
-                if (tds[0].querySelectorAll('.exe-prop-title').length === 0) tds[0].innerHTML = '<span class="exe-prop-title"></span>';
-                if (tds[1].querySelectorAll('.exe-prop-description').length === 0) tds[1].innerHTML = '<span class="exe-prop-description"></span>';
-                if (tds[2].querySelectorAll('.exe-prop-author').length === 0) tds[2].innerHTML = '<span class="exe-prop-author"></span>';
-                if (tds[3].querySelectorAll('.exe-prop-license').length === 0) tds[3].innerHTML = '<span class="exe-prop-license"></span>';
-            }
-        }
-
-        var title = (props.pp_title && props.pp_title.value) ? props.pp_title.value : '-';
-        var author = (props.pp_author && props.pp_author.value) ? props.pp_author.value : '-';
-        var desc = (props.pp_description && props.pp_description.value) ? props.pp_description.value : '-';
-        var license = (props.pp_license && props.pp_license.value) ? props.pp_license.value : '-';
-
-        var formattedLicense = license;
-        if (license !== '-') {
-            // CC0 uses a publicdomain URL, not the standard licenses/ path
-            if (license.toLowerCase() === 'creative commons: cc0 1.0') {
-                formattedLicense = '<a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="license" class="cc cc-0"><span></span>Creative Commons CC0 1.0</a>';
-            } else if (license === 'propietary license') {
-                formattedLicense = c_('Proprietary license');
-            } else if (license === 'not appropriate') {
-                formattedLicense = c_('Not appropriate');
-            } else if (license === 'public domain') {
-                formattedLicense = c_('Public domain');
-            } else {
-                var licenseMappings = [
-                    ['creative commons: attribution 4.0', 'by/4.0'],
-                    ['creative commons: attribution - non derived work 4.0', 'by-nd/4.0'],
-                    ['creative commons: attribution - non derived work - non commercial 4.0', 'by-nc-nd/4.0'],
-                    ['creative commons: attribution - non commercial 4.0', 'by-nc/4.0'],
-                    ['creative commons: attribution - non commercial - share alike 4.0', 'by-nc-sa/4.0'],
-                    ['creative commons: attribution - share alike 4.0', 'by-sa/4.0'],
-                    ['creative commons: attribution 3.0', 'by/3.0'],
-                    ['creative commons: attribution - non derived work 3.0', 'by-nd/3.0'],
-                    ['creative commons: attribution - non derived work - non commercial 3.0', 'by-nc-nd/3.0'],
-                    ['creative commons: attribution - non commercial 3.0', 'by-nc/3.0'],
-                    ['creative commons: attribution - non commercial - share alike 3.0', 'by-nc-sa/3.0'],
-                    ['creative commons: attribution - share alike 3.0', 'by-sa/3.0'],
-                    ['creative commons: attribution 2.5', 'by/2.5'],
-                    ['creative commons: attribution - non derived work 2.5', 'by-nd/2.5'],
-                    ['creative commons: attribution - non derived work - non commercial 2.5', 'by-nc-nd/2.5'],
-                    ['creative commons: attribution - non commercial 2.5', 'by-nc/2.5'],
-                    ['creative commons: attribution - non commercial - share alike 2.5', 'by-nc-sa/2.5'],
-                    ['creative commons: attribution - share alike 2.5', 'by-sa/2.5']
-                ];
-                for (var i = 0; i < licenseMappings.length; i++) {
-                    if (licenseMappings[i][0] === license) {
-                        var type = licenseMappings[i][1].replace('/', ' ').toUpperCase();
-                        var css = 'cc cc-' + licenseMappings[i][1].split('/')[0];
-                        formattedLicense = '<a href="https://creativecommons.org/licenses/' + licenseMappings[i][1] + '/" rel="license" class="' + css + '"><span></span>Creative Commons ' + type + '</a>';
-                        break;
-                    }
-                }
-            }
-        }
-
-        // Update DOM elements safely
-        var tempDiv = document.createElement('div');
-        
-        var titles = document.querySelectorAll('.exe-prop-title');
-        for (var i = 0; i < titles.length; i++) {
-            tempDiv.textContent = title;
-            titles[i].innerHTML = tempDiv.innerHTML;
-        }
-
-        var authors = document.querySelectorAll('.exe-prop-author');
-        for (var j = 0; j < authors.length; j++) {
-            tempDiv.textContent = author;
-            authors[j].innerHTML = tempDiv.innerHTML;
-        }
-
-        var descriptions = document.querySelectorAll('.exe-prop-description');
-        for (var k = 0; k < descriptions.length; k++) {
-            tempDiv.textContent = desc;
-            descriptions[k].innerHTML = tempDiv.innerHTML;
-        }
-
-        var licenses = document.querySelectorAll('.exe-prop-license');
-        for (var l = 0; l < licenses.length; l++) {
-            // License could contain HTML (formatted version), so assign directly
-            // For standard text (e.g. "Public Domain"), we should sanitize, but we trust the internal properties.
-            if (formattedLicense.indexOf('<a') === 0) {
-                licenses[l].innerHTML = formattedLicense;
-            } else {
-                tempDiv.textContent = formattedLicense;
-                licenses[l].innerHTML = tempDiv.innerHTML;
-            }
-        }
-    }
-
-    // Run on script execution (when iDevice is rendered in DOM)
-    syncProperties();
-
-    // To catch dynamic property changes while the Workarea is active without a page reload:
-    // Try to hook into Yjs metadata observer if possible
-    if (typeof window.eXeLearning !== 'undefined' && window.eXeLearning.app && window.eXeLearning.app.yjsBridge) {
-        // Wait for connection and metadata
-        setTimeout(function() {
-            var docMgr = window.eXeLearning.app.yjsBridge.documentManager;
-            if (docMgr) {
-                var metadata = docMgr.getMetadata();
-                if (metadata) {
-                    metadata.observe(function(event) {
-                        var relevantKeys = ['title', 'author', 'description', 'license'];
-                        var needsUpdate = false;
-                        if (event.changes && event.changes.keys) {
-                            event.changes.keys.forEach(function(change, key) {
-                                if (relevantKeys.indexOf(key) !== -1) {
-                                    needsUpdate = true;
-                                }
-                            });
-                        }
-                        if (needsUpdate) {
-                            syncProperties();
-                        }
-                    });
-                }
-            }
-        }, 1000);
-    }
-})();
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mp5s3tgd-rv162m3mv">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<title>Herramientas de comunicación | Los Misterios del Olimpo</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Situación de Aprendizaje dirigida a 1.º de ESO para trabajar la comprensión e interpretación de los mitos griegos mediante actividades cooperativas y herramientas digitales.">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mp5s3tgd-rv162m3mv" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node daddy">Los misterios del Olimpo</a>
+<ul class="other-section">
+<li> <a href="../html/guia-didactica.html" class="daddy">Guía didáctica</a>
+<ul class="other-section">
+<li> <a href="../html/introduccion.html" class="no-ch">Introducción</a>
+</li>
+<li> <a href="../html/contenidos.html" class="no-ch">Contenidos</a>
+</li>
+<li> <a href="../html/actividades.html" class="no-ch">Actividades</a>
+</li>
+<li> <a href="../html/linea-temporal.html" class="no-ch">Línea temporal</a>
+</li>
+<li> <a href="../html/curacion-de-contenidos.html" class="no-ch">Curación de contenidos</a>
+</li>
+<li> <a href="../html/seguridad-digital.html" class="no-ch">Seguridad digital</a>
+</li>
+<li> <a href="../html/evaluacion.html" class="no-ch">Evaluación</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="active"> <a href="../html/herramientas-de-comunicacion.html" class="active no-ch">Herramientas de comunicación</a>
+</li>
+<li> <a href="../html/herramientas-para-el-producto-final.html" class="no-ch">Herramientas para el producto final</a>
+</li>
+<li> <a href="../html/creditos.html" class="no-ch">Créditos</a>
+</li>
+</ul>
+</nav><main id="page-mp5s3tgd-rv162m3mv" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">Los Misterios del Olimpo</p>
+<p class="package-subtitle">Situación de Aprendizaje para 1.º de ESO</p></div>
+<div class="page-header"><h1 class="page-title">Herramientas de comunicación</h1></div>
+</header><div id="page-content-page-mp5s3tgd-rv162m3mv" class="page-content">
+<article id="block-1778619852716-ia8tesl8j" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/diary_alt.png" alt="">
+</div>
+<h1 class="box-title">Herramientas de comunicación</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1778619852714-8ynh96lap" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1778619852714-8ynh96lap&quot;}">
+<div class="exe-text-template">
+    <p>Durante el desarrollo de esta Situación de Aprendizaje se utilizarán diferentes herramientas digitales para facilitar la comunicación entre el profesorado, el alumnado y las familias.</p>
+<p>El objetivo es favorecer una comunicación clara, organizada y accesible que permita realizar el seguimiento del trabajo desarrollado durante las distintas actividades relacionadas con los mitos trabajados en el aula.</p>
+</div>
+</div>
+</div>
+</article><article id="block-1778707191492-97spkxghr" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/reflection.png" alt="">
+</div>
+<h1 class="box-title">Comunicación entre el profesorado</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1778707191490-c9dh6xdj2" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1778707191490-c9dh6xdj2&quot;}">
+<div class="exe-text-template">
+    <p>La comunicación interna entre el profesorado se realizará principalmente mediante herramientas institucionales como Séneca, el correo corporativo del centro y documentos compartidos en Google Drive.</p>
+<p>Además, en determinadas ocasiones también pueden utilizarse grupos o canales de mensajería instantánea para transmitir avisos rápidos o cuestiones organizativas. No obstante, considero importante que la información relevante quede recogida en canales más formales y organizados, evitando que pueda perderse entre mensajes informales o conversaciones ajenas al trabajo docente.</p>
+<p>El uso de documentos compartidos facilita además la coordinación entre docentes, la organización de materiales y el seguimiento conjunto de las actividades desarrolladas durante la Situación de Aprendizaje.</p>
+</div>
+</div>
+</div>
+</article><article id="block-1778707288215-8v57iyg18" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/competencies.png" alt="">
+</div>
+<h1 class="box-title">Comunicación entre profesorado y alumnado</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1778707288213-tkbsrx7os" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1778707288213-tkbsrx7os&quot;}">
+<div class="exe-text-template">
+    <p>Para la comunicación con el alumnado se utilizarán principalmente Google Classroom y documentos compartidos mediante Google Docs.</p>
+<p>Estas herramientas permiten centralizar materiales, tareas, recursos y avisos dentro de un mismo entorno digital, facilitando tanto la organización del trabajo como el acceso a la información necesaria para el desarrollo de las actividades.</p>
+<p>Además, el uso de herramientas colaborativas favorece el trabajo en grupo, la participación activa y el seguimiento del proceso de aprendizaje por parte del profesorado.</p>
+<p>También se facilitará al alumnado el uso del correo corporativo del centro para resolver dudas o realizar consultas relacionadas con la materia.</p>
+</div>
+</div>
+</div>
+</article><article id="block-1778708257226-95m15vok1" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/agreement.png" alt="">
+</div>
+<h1 class="box-title">Comunicación entre profesorado y familias</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1778708257225-8eq99oxjy" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1778708257225-8eq99oxjy&quot;}">
+<div class="exe-text-template">
+    <p>La comunicación con las familias se realizará principalmente mediante la plataforma iPasen y el correo electrónico corporativo del centro.</p>
+<p>Considero que iPasen es una herramienta especialmente útil porque permite mantener una comunicación institucional, segura y organizada, garantizando además la privacidad de los datos personales y el seguimiento del progreso del alumnado.</p>
+<p>A través de esta plataforma las familias podrán consultar avisos, calificaciones, faltas de asistencia y otra información relevante relacionada con el desarrollo de la Situación de Aprendizaje.</p>
+<p>Asimismo, se intentará mantener una comunicación clara y accesible que favorezca la colaboración entre el centro educativo y las familias durante todo el proceso de enseñanza-aprendizaje.<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> </p>
+<p> </p>
+<p><br /></p>
+<p></p>
+</div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/evaluacion.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/herramientas-para-el-producto-final.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">Creative Commons: Reconocimiento - compartir igual 4.0</a></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(nueva ventana)</span></span></a></p>
+</body>
+</html>
